@@ -1,0 +1,129 @@
+{
+  "projectId": "9d245d85-62ee-41b7-b68b-50b0ecbbae77",
+  "sections": [
+    {
+      "id": 1,
+      "name": "Папка 1",
+      "parentIdLocal": null,
+      "preconditionSteps":[
+        {
+          "action":"<p>Необходимые условия для успешного прохождения тест-кейса</p>",
+          "expected":"Результат предусловия"
+        }
+      ],
+      "postconditionSteps":[
+        {
+          "action":"<p>Пост-условие</p>",
+          "expected":"Результат пост-условия"
+        }
+      ],
+      "workItems": [
+        {
+          "name": "Первый тест-кейс",
+          "description":"Очень полезное краткое описание тест-кейса",
+          "entityTypeName":"TestCases",
+          "duration":60,
+          "state":"Ready",
+          "priority":"Medium",
+          "tags":[
+            {
+              "name": "тест"
+            },
+            {
+              "name": "тест-кейс"
+            },
+            {
+              "name": "первый"
+            }
+          ],
+          "steps":[
+            {
+              "action": "Важнейший шаг. Шаг номер 1.",
+              "expected": "Ожидаемый результат этого важнейшего шага."
+            },
+            {
+              "action": "Не менее важный второй шаг.",
+              "expected": "Результат выполнения второго шага. Тоже очень важный."
+            }
+          ],
+          "attributes": {},
+          "links": [
+            {
+              "url":"https://innostage-group.ru/",
+              "title":"Сайт компании",
+              "description":"",
+              "type":"Requirement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Папка 2",
+      "parentIdLocal": null
+    },
+    {
+      "id": 3,
+      "name": "Папка 3",
+      "parentIdLocal": null
+    },
+    {
+      "id": 4,
+      "name": "Первая вложенная папка",
+      "parentIdLocal": 2,
+      "preconditionSteps":[
+        {
+          "action":"<p>Необходимые условия для успешного прохождения тест-кейса</p>",
+          "expected":"Результат предусловия"
+        }
+      ],
+      "postconditionSteps":[
+        {
+          "action":"<p>Пост-условие</p>",
+          "expected":"Результат пост-условия"
+        }
+      ],
+      "workItems":  [
+        {
+          "name": "Второй тест-кейс",
+          "description":"",
+          "entityTypeName":"TestCases",
+          "duration":100,
+          "state":"NotReady",
+          "priority":"Medium",
+          "tags":[
+            {
+              "name": "тест"
+            },
+            {
+              "name": "тест-кейс"
+            },
+            {
+              "name": "второй"
+            }
+          ],
+          "steps":[
+            {
+              "action": "Важнейший шаг. Шаг номер 1.",
+              "expected": "Ожидаемый результат этого важнейшего шага."
+            },
+            {
+              "action": "Не менее важный второй шаг.",
+              "expected": "Результат выполнения второго шага. Тоже очень важный."
+            }
+          ],
+          "attributes": {},
+          "links": [
+            {
+              "url":"https://innostage-group.ru/",
+              "title":"Сайт компании",
+              "description":"",
+              "type":"Requirement"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
